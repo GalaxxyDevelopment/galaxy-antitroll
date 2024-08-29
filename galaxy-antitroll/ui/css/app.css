@@ -1,0 +1,49 @@
+.content {
+    position: absolute;
+    bottom: 20px;
+    right: 37%;
+    width: auto;
+    height: 65px;
+    padding: 20px;
+    background: #1e212ef1;
+    border-radius: 7px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newPlayer {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;  /* Slightly larger font */
+    color: #E9E9E9;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;  /* Larger font for emphasis */
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.text span {
+    color: #ff3e3e;  /* Red color for the countdown */
+}
+
+.description {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #E9E9E9;
+    margin: 5px 0;
+    line-height: 1.5; /* Line height for better readability */
+}

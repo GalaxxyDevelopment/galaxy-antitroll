@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/app.css" />
+        <script defer src="https://unpkg.com/alpinejs@3.10.4/dist/cdn.min.js"></script>
+        <script src="js/app.js" type="text/javascript"></script>
+        <title>endzone-</title>
+        <style>
+            ::-webkit-scrollbar {
+                display: none;
+            }
+        </style>
+    </head>
+    <body x-data="main()" x-init="listen()">
+        <div class="content" x-show="show" x-transition>
+            <div class="main-text">
+                <h1 class="newPlayer">Yeni Oyuncu Hoşgeldin.</h1>
+                <div class="text">Kalan Dakika: <span x-text="minleft"></span></div>
+                <h2 class="description">
+                    Bu sistem oyundaki bazı eylemlerini kısıtlamakta. Süre Bitiminde<br>
+                    hepsi kalkacaktır. Süre Bitiminde $50000 Dolar Nakit Alacaksın.
+                </h2>
+            </div>
+        </div>
+    </body>
+</html>
